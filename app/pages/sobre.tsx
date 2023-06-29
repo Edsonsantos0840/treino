@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Sobreobre() {
+export default function Sobre() {
   return (
-    <div>Sobre</div>
+    <div><p>Sobre</p></div>
   )
 }
