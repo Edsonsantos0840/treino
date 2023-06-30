@@ -1,11 +1,9 @@
-import Image from 'next/image'
-import Header from './layout/header'
-
+import styles from '@/app/styles/header.module.css'
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Header/>
+    <main className={styles.container}  >
      <h1>Olá NextJs</h1>
     </main>
   )
 }
+
